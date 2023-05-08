@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>Log In as Volunteer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <hr class="navhr">
+    <div class="nav">
+        <ul class="navul">
+            <li class="navli"><a href="home.html">Home |</a></li>
+            <li class="navli"><a href="ngos.html">NGOs |</a></li>
+            <li class="navli"><a href="about.html"> About|</a></li>
+        </ul>
+        <button id="navbutton" type="button" onclick="location.href='organization.html'"><p>Organization</p>
+        </button>
+        <button id="navbutton" type="button" onclick="location.href='volunteer.html'"><p>Volunteer</p>
+        </button>
+        
+    </div>
+    <br><br><br><hr class="navhr">
+    <div class="formdiv">
+        <div>
+        <article>
+            <form>
+                <label for="mobile_number">Mobile Number</label>
+                <input type="text" id="mobile_number" name="mobile_number">
+                <br>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <h2>Nationality:-</h2>
+                <input type="radio" id="indian" name="nationality" value="indian">
+                <label for="indian" >Indian</label><br>
+                <input type="radio" id="others" name="nationality" value="others">
+                <label for="others" >Other</label>
+                <br>
+                <input type="submit" class="loginbutton" value="Log In">
+            </form>
+            <br><br><hr>
+            New User :
+            <button class="loginbutton" onclick="location.href='volunteer form.html'">Sign Up</button>
+        </article>
+        </div>
+        <section>Fill this Form to be in Contact with an NGO </section>
+        <img src="unity.png" height="300px" width="300px" style="margin-left:100px;">
+    </div>
+</body>
+</html>
